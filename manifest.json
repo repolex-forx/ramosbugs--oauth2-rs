@@ -50,6 +50,207 @@
       ],
       "ast": [
         "aggregate/ast/72ce74401c26eb4dc85dcbfde587bbcfc149e3ae/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/72ce74401c26eb4dc85dcbfde587bbcfc149e3ae.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.5.0",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "16fc9a7b840c2181e7f8b37397c107b0ffcd050d",
+          "githubTag": "v1.5.0",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-1.5.0/src/header/value.rs"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.154",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "20572a6d066958542d79cdd6cf1a7cd9f0c8e1f8",
+          "githubTag": "v1.0.154",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_json-1.0.154/src/ser.rs"
+        },
+        {
+          "packageName": "url",
+          "ecosystem": "CARGO",
+          "version": "2.5.9",
+          "githubOrg": "servo",
+          "githubRepo": "rust-url",
+          "githubCommit": "ad1c66cbff6e318393d872641e30589ff9687b9c",
+          "githubTag": "v2.5.9",
+          "githubUrl": "https://github.com/servo/rust-url",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.9/src/lib.rs"
+        },
+        {
+          "packageName": "serde_core",
+          "ecosystem": "CARGO",
+          "version": "1.0.229",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+          "githubTag": "v1.0.229",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_core-1.0.229/src/ser/mod.rs"
+        },
+        {
+          "packageName": "chrono",
+          "ecosystem": "CARGO",
+          "version": "0.4.45",
+          "githubOrg": "chronotope",
+          "githubRepo": "chrono",
+          "githubCommit": "170338250e836976a211e64728ec956e45e78a39",
+          "githubTag": "v0.4.45",
+          "githubUrl": "https://github.com/chronotope/chrono",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/chrono-0.4.45/src/datetime/mod.rs"
+        },
+        {
+          "packageName": "form_urlencoded",
+          "ecosystem": "CARGO",
+          "version": "1.2.3",
+          "githubOrg": "servo",
+          "githubRepo": "rust-url",
+          "githubUrl": "https://github.com/servo/rust-url",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/form_urlencoded-1.2.3/src/lib.rs"
+        },
+        {
+          "packageName": "reqwest",
+          "ecosystem": "CARGO",
+          "version": "0.12.28",
+          "githubOrg": "seanmonstar",
+          "githubRepo": "reqwest",
+          "githubCommit": "d97859910c357827ad5993d37ce750ad595f4fff",
+          "githubTag": "v0.12.28",
+          "githubUrl": "https://github.com/seanmonstar/reqwest",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reqwest-0.12.28/src/redirect.rs"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.54.1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "b53b2001ed2ccfd9b87e32a0c6da1a1eebdc80b8",
+          "githubTag": "tokio-1.54.1",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.54.1/src/io/util/async_write_ext.rs"
+        },
+        {
+          "packageName": "serde_path_to_error",
+          "ecosystem": "CARGO",
+          "version": "0.1.20",
+          "githubOrg": "dtolnay",
+          "githubRepo": "path-to-error",
+          "githubCommit": "097ed8772815ab6a676ebf3998b6de4770af090d",
+          "githubTag": "0.1.20",
+          "githubUrl": "https://github.com/dtolnay/path-to-error",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/de.rs"
+        },
+        {
+          "packageName": "base64",
+          "ecosystem": "CARGO",
+          "version": "0.22.1",
+          "githubOrg": "marshallpierce",
+          "githubRepo": "rust-base64",
+          "githubCommit": "e14400697453bcc85997119b874bc03d9601d0af",
+          "githubTag": "v0.22.1",
+          "githubUrl": "https://github.com/marshallpierce/rust-base64",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/base64-0.22.1/src/engine/mod.rs"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.8",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "572d3b0c176085c485b8fa7818a04b769097bd72",
+          "githubTag": "0.8.8",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand-0.8.8/src/rng.rs"
+        },
+        {
+          "packageName": "digest",
+          "ecosystem": "CARGO",
+          "version": "0.10.7",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "traits",
+          "githubUrl": "https://github.com/RustCrypto/traits",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.10.7/src/digest.rs"
+        },
+        {
+          "packageName": "hex",
+          "ecosystem": "CARGO",
+          "version": "0.4.3",
+          "githubOrg": "KokaKiwi",
+          "githubRepo": "rust-hex",
+          "githubCommit": "b2b4370b5bf021b98ee7adc92233e8de3f2de792",
+          "githubTag": "v0.4.3",
+          "githubUrl": "https://github.com/KokaKiwi/rust-hex",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-0.4.3/src/lib.rs"
+        },
+        {
+          "packageName": "uuid",
+          "ecosystem": "CARGO",
+          "version": "1.29.3",
+          "githubOrg": "uuid-rs",
+          "githubRepo": "uuid",
+          "githubCommit": "266c044a9cd9845de011251525f45a6bee341774",
+          "githubTag": "v1.29.3",
+          "githubUrl": "https://github.com/uuid-rs/uuid",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.29.3/src/v4.rs"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.229",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+          "githubTag": "v1.0.229",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.229/src/lib.rs"
+        },
+        {
+          "packageName": "thiserror",
+          "ecosystem": "CARGO",
+          "version": "1.0.69",
+          "githubOrg": "dtolnay",
+          "githubRepo": "thiserror",
+          "githubCommit": "41938bd3a03a70d34ed8e53d99c89c770c7c9c41",
+          "githubTag": "1.0.69",
+          "githubUrl": "https://github.com/dtolnay/thiserror",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-1.0.69/src/lib.rs"
+        },
+        {
+          "packageName": "sha2",
+          "ecosystem": "CARGO",
+          "version": "0.10.9",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hashes",
+          "githubUrl": "https://github.com/RustCrypto/hashes",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sha2-0.10.9/src/lib.rs"
+        }
       ]
     }
   ],
