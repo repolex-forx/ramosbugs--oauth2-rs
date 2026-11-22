@@ -1,0 +1,11 @@
+{
+  "org": "ramosbugs",
+  "repo": "oauth2-rs",
+  "versions": [
+    {
+      "commit": "72ce74401c26eb4dc85dcbfde587bbcfc149e3ae",
+      "tag": "oauth2-reqwest-0.1.0-alpha.3",
+      "parsed_at": "2026-11-22T15:11:55.099476+00:00"
+    }
+  ]
+}
